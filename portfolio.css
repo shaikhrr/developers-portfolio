@@ -142,6 +142,10 @@ main{
 .resume .item{
     margin-top:30px;
     margin-bottom:30px;
+    width: 60%;
+}
+.resume hr{
+    display:none;
 }
 
 .resume .title{
@@ -164,4 +168,31 @@ main{
 .resume-button{
     margin-top:50px;
     text-align:center;
+}
+
+/* contact styles */
+.contact .title {
+    text-align:left;
+}
+.contact {
+    display:flex;
+    gap:100px;
+    background: #fff8f3;
+    padding:130px 200px;
+
+}
+
+.contact input[type="text"],input[type="email"], textarea {
+    margin-bottom:24px;
+    width:100%;
+    border:0;
+    padding: 18px 30px;
+
+}
+input {
+    height: 64px;
+
+}
+.contact a{
+    text-decoration: none;
 }

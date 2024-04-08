@@ -55,10 +55,33 @@
     margin-left: 50px;
 
 
-nav ul {
+    nav span{
+        color: #FD6E0A;
+    }
+    nav li{
+        list-style:none;
+        display: flex;
+    }
+    nav button{
+        height:64px;
+        width: 134px;
+        color:#FFFFFF;
+        background: #FD6E0A;
+        font-size: 30px;
+        border:none;
+        border-radius:5px;
+    }
+    nav{
+        margin: 50px 200px;
+        justify-content: space-between;
     display: flex;
-    align-items: center;
-}
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    
 
 /* banner styles */
 .banner {

@@ -50,17 +50,13 @@
 
 }
 
-     list-style: none;
-    /* padding: 0 50px; */
-    margin-left: 50px;
-
-
     nav span{
         color: #FD6E0A;
     }
     nav li{
         list-style:none;
         display: flex;
+        margin-left: 50px;
     }
     nav button{
         height:64px;
@@ -103,7 +99,7 @@
 
 .banner-description {
     color: #757575;
-    font size: 18px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 

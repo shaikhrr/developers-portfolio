@@ -29,8 +29,9 @@
 }
 
 .contactoin{
-    height: 64px;
     border-radius: 5px;
+
+    
     background: white;
     color: #FD6E0A;
     font-weight: 700;
@@ -45,19 +46,37 @@
     background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size: contain, 4%;l,65;
-    font-size: 45px;
-
+    background-size: contain, 4%;
 }
-
-     list-style: none;
-    /* padding: 0 50px; */
-    margin-left: 50px;
-
-
-nav ul {
+nav span{
+    color: #FD6E0A;
+}
+nav li{
+    list-style:none;
+    display: flex;
+}
+nav button{
+    height:64px;
+    width: 134px;
+    color:#FFFFFF;
+    background: #FD6E0A;
+    font-size: 30px;
+    border:none;
+    border-radius:5px;
+}
+nav{
+    margin: 50px 200px;
+    justify-content: space-between;
+display: flex;
+}
+nav ul{
     display: flex;
     align-items: center;
+    gap: 25px;
+}
+
+.name{
+    font-size:45px;
 }
 
 /* banner styles */
